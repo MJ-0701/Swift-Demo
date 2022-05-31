@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Firebase
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -13,6 +14,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        
+        // FireBase 초기화 코드
+        FirebaseApp.configure()
         
         // 네비게이션 바 보이게 설정 (ios 15 업데이트 이후 네비게이션바가 기본적으로 투명 설정이 됐다.)
         if #available(iOS 13, *) {

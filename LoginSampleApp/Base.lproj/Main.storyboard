@@ -232,7 +232,7 @@
         <!--Main View Controller-->
         <scene sceneID="lzu-9g-o8N">
             <objects>
-                <viewController id="SkR-HQ-ket" customClass="MainViewController" customModule="LoginSampleApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MainViewController" id="SkR-HQ-ket" customClass="MainViewController" customModule="LoginSampleApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0rY-M7-ong">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -265,7 +265,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="welconeLabel" destination="5NA-Om-Gfb" id="pym-sZ-1gg"/>
+                        <outlet property="welcomeLabel" destination="5NA-Om-Gfb" id="obQ-GH-gPH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VEK-8x-9Jg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
